@@ -10,6 +10,10 @@
     --title-color: #e6e6e6; 
 }
 
+html {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     min-height: 100vh;
@@ -17,27 +21,41 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.left-container > h1 {
+.left-container {
+    min-width: 35%;
+    background-image: url(/assets/images/230104_CutUps_1215.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-image: url(/assets/images/camera_24dp_E6E6E6_FILL0_wght300_GRAD200_opsz48.png);
+    height: 5em;
+    width: 5em;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 20px;
+}
+
+.title {
     font-family: 'aaltodisplay-personal-use', sans-serif;
-    font-size: 7rem;
+    font-size: 9em;
     letter-spacing: 0.1rem;
     font-weight: 100;
     color: var(--title-color);
-    position: absolute;
-
+    margin: 0;
+   
 }
 
 h2 {
     
-}
-
-.left-container {
-    /* border: 2px red solid; */
-    min-width: 40%;
-    overflow: hidden;
-}
-
-img {
-    width: auto;
-    height: 100%;
 }

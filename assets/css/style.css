@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'aaltodisplay-personal-use';
+    src: url('/assets/fonts/aalto-display-personal-use-webfont.woff') format('woff2'),
+         url('/assets/fonts/aalto-display-personal-use-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --title-color: #e6e6e6; 
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left-container > h1 {
+    font-family: 'aaltodisplay-personal-use', sans-serif;
+    font-size: 7rem;
+    letter-spacing: 0.1rem;
+    font-weight: 100;
+    color: var(--title-color);
+    position: absolute;
+
+}
+
+h2 {
+    
+}
+
+.left-container {
+    /* border: 2px red solid; */
+    min-width: 40%;
+    overflow: hidden;
+}
+
+img {
+    width: auto;
+    height: 100%;
+}

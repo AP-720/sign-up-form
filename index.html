@@ -20,7 +20,7 @@
 
 <div class="right-container">
     <div class="text-container">
-        <h2>Empowering creativity with advanced image processing tools, redefining how visuals are captured, edited, and shared. Our platform seamlessly blends innovation with intuitive design, enabling professionals and enthusiasts alike to produce stunning imagery effortlessly.</h2>
+        <h2>Empowering creativity with advanced image processing tools, redefining how visuals are captured, edited, and shared. Our platform enables professionals and enthusiasts alike to produce stunning imagery effortlessly.</h2>
         
         <h2>Join us on a journey to transform visual storytelling.</h2>
     </div>
@@ -45,9 +45,12 @@
                         </label>
                     </div>
                     <div class="password">
-                        <label for="password">PASSWORD <input type="password" name="password" id="password" required>
+                        <label for="password">PASSWORD <input type="password" name="password" id="password" required pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*\W)(?!.* ).{8,16}$">
+                        <span class="error-message"></span>
                         </label>
-                        <label for="confirm-password">CONFIRM PASSWORD <input type="password" name="confirm-password" id="confirm-password" required>
+                        
+                        <label for="confirm-password">CONFIRM PASSWORD <input type="password" name="confirm-password" id="confirm-password" required pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*\W)(?!.* ).{8,16}$">
+                        <span class="error-message"></span>
                         </label>
                     </div>
                 </div>

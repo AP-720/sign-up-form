@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'aaltodisplay-personal-use';
-    src: url('/assets/fonts/aalto-display-personal-use-webfont.woff') format('woff2'),
-         url('/assets/fonts/aalto-display-personal-use-webfont.woff') format('woff');
+    src: url('assets/fonts/aalto-display-personal-use-webfont.woff') format('woff2'),
+         url('assets/fonts/aalto-display-personal-use-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -28,7 +28,7 @@ body {
 
 .left-container {
     min-width: 35%;
-    background-image: url(/assets/images/230104_CutUps_1215.jpg);
+    background-image: url(assets/images/230104_CutUps_1215.jpg);
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
@@ -43,7 +43,7 @@ body {
 }
 
 .logo {
-    background-image: url(/assets/images/camera_24dp_E6E6E6_FILL0_wght300_GRAD200_opsz48.png);
+    background-image: url(assets/images/camera_24dp_E6E6E6_FILL0_wght300_GRAD200_opsz48.png);
     height: 5em;
     width: 5em;
     background-repeat: no-repeat;
